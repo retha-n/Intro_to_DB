@@ -12,7 +12,8 @@ WHERE
     TABLE_SCHEMA = 'alx_book_store'
     TABLE_NAME = 'Customer';
 sql = INSERT INTO customer (customer_id, customer_name, email, address)
-val = VALUES (1, Cole Baidoo, cbaidoo@sandtech.co, 123 Happiness Ave. )
+val = VALUES (1, Cole Baidoo, cbaidoo@sandtech.com, 123 Happiness Ave. )
 mycursor.execute(sql, val)
 
 alx_book_store.commit()
+
