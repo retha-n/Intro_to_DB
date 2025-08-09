@@ -5,7 +5,8 @@ alx_book_store = mysql.connector.connect(
         password = "r20062501",
         database = "alx_book_store"
 )
-SHOW DATABASE,
+SHOW DATABASES,
 USE alx_book_store;
 SHOW TABLES,
+
 print("Tables present")
